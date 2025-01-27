@@ -4,7 +4,6 @@ import search from './assets/search-line.svg';
 import closeIcon from './assets/close-line.png';
 
 function NavLink(){
-
   const [menuOpen, setMenuOpen] = useState(false);
     const toggleMenu = ()=> {
       setMenuOpen(!menuOpen);
