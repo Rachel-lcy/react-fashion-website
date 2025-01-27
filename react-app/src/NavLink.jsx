@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import search from './assets/search-line.svg';
 import closeIcon from './assets/close-line.png';
 import hamburger from './assets/menu-add-line (1).png';
+import shoppingBag from './assets/shopping-bag-line.svg';
 
 function NavLink(){
   const [menuOpen, setMenuOpen] = useState(false);
@@ -21,6 +22,12 @@ function NavLink(){
         aria-hidden="true"
         onClick={toggleMenu}
         />
+        </div>
+        <div>
+           <div className='search_bag'>
+              <img src={search} alt="" className='search'/>
+              <img src={shoppingBag} alt="" className='bag'/>
+            </div>
         </div>
         <ul className={`nav-lists ${menuOpen ? "show" : ""}`} >
           <li>
