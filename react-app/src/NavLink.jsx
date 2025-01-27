@@ -2,6 +2,7 @@ import  { useState } from 'react';
 import { Link } from 'react-router-dom';
 import search from './assets/search-line.svg';
 import closeIcon from './assets/close-line.png';
+import hamburger from './assets/menu-add-line (1).png';
 
 function NavLink(){
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,6 +13,15 @@ function NavLink(){
   return(
     <>
     <div>
+      <div className='hamburger_logo' >
+        <img
+        src={hamburger} alt=""
+        className='hamburger'
+        id='hamburger-menu'
+        aria-hidden="true"
+        onClick={toggleMenu}
+        />
+        </div>
         <ul className={`nav-lists ${menuOpen ? "show" : ""}`} >
           <li>
             <Link to='/new'><span href="#" className='dropdown-btn' id='nav-item'>New</span></Link>
