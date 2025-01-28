@@ -4,6 +4,7 @@ import search from './assets/search-line.svg';
 import closeIcon from './assets/close-line.png';
 import hamburger from './assets/menu-add-line (1).png';
 import shoppingBag from './assets/shopping-bag-line.svg';
+import herologo from './assets/herologo.webp'
 
 function NavLink(){
   const [menuOpen, setMenuOpen] = useState(false);
@@ -111,7 +112,10 @@ function NavLink(){
           <li><a href="#">Contact</a></li>
         </ul>
       </div>
-
+        <div className='Hero_div'>
+          <img src={herologo} alt="" />
+        </div>
+      
     </>
   )
 }
