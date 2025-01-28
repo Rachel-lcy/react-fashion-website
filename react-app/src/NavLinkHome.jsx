@@ -8,7 +8,7 @@ function NavLinkHome(){
   return(
     <>
     <div className='bg-blue-100 h-10 flex justify-center items-center text-gray-500'>
-      <p>Free express shipping to Canada.Duty-free</p>
+      <p>Free express shipping to Canada. Duty-free</p>
     </div>
     <div>
       <div className='left_area  text-gray-500'>
