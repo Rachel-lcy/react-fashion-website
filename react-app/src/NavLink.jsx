@@ -15,7 +15,7 @@ function NavLink(){
   return(
     <>
     <div>
-      <div className='hamburger_logo' >
+      <div className='hamburger_logo  text-gray-500' >
         <img
         src={hamburger} alt=""
         className='hamburger'
@@ -25,12 +25,12 @@ function NavLink(){
         />
         </div>
         <div>
-           <div className='search_bag'>
+           <div className='search_bag  text-gray-500'>
               <img src={search} alt="" className='search'/>
               <img src={shoppingBag} alt="" className='bag'/>
             </div>
         </div>
-        <ul className={`nav-lists ${menuOpen ? "show" : ""}`} >
+        <ul className={`nav-lists ${menuOpen ? "show" : ""}` } >
           <li>
             <Link to='/new'><span href="#" className='dropdown-btn' id='nav-item'>New</span></Link>
               <div className='dropdown-content'>
@@ -90,10 +90,7 @@ function NavLink(){
         </li>
         </ul>
       </div>
-
       <div className={`fullscreen-menu ${menuOpen ? "show" : ""}`}>
-        
-
         <div className="close-icon" onClick={toggleMenu}>
           <img src={closeIcon} alt="Close" />
         </div>
