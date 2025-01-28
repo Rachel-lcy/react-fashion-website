@@ -1,10 +1,8 @@
-
 import downArrow from './assets/arrow-down-s-line.png';
 import shoppingBag from './assets/shopping-bag-line.svg';
 import heart from './assets/heart-2-line.png';
 
 function NavLinkHome(){
-
   return(
     <>
     <div className='bg-blue-100 h-10 flex justify-center items-center text-gray-500'>
