@@ -92,6 +92,7 @@ function NavLink(){
       </div>
 
       <div className={`fullscreen-menu ${menuOpen ? "show" : ""}`}>
+        
 
         <div className="close-icon" onClick={toggleMenu}>
           <img src={closeIcon} alt="Close" />
@@ -112,10 +113,9 @@ function NavLink(){
           <li><a href="#">Contact</a></li>
         </ul>
       </div>
-        <div className='Hero_div'>
-          <img src={herologo} alt="" />
-        </div>
-      
+      <div className='Hero_div'>
+        <img src={herologo} alt="" />
+      </div>
     </>
   )
 }

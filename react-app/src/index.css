@@ -162,6 +162,7 @@
   width: 100%;
   text-align: left;
   
+  
 }
 .nav-lists{
   display: flex;
@@ -174,7 +175,6 @@
 .nav-lists li,
 .extra-menu li {
   position: relative;
-  
 }
 
 .nav-lists li a,
@@ -184,6 +184,7 @@
   font-size: 18px;
   font-weight: bold;
   width: 100%;
+  font-weight:normal;
 }
 
 .extra-menu {
@@ -321,24 +322,6 @@
   margin-top: 0;
   
 }
-
-
-@media  (max-width:768px){
-  .hero_image{
-    width: 100%px;
-    height: auto;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-  }
-
-}
-
 
 @media (max-width:1024px){
   .nav_search{
